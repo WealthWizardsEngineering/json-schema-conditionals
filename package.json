@@ -7,7 +7,9 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src",
-    "lint:fix": "eslint --fix src"
+    "lint:fix": "eslint --fix src",
+    "release": "rm -rf node_modules && npm i --production && npm publish",
+    "ci": "npm install && npm run lint && npm test"
   },
   "author": "WealthWizards",
   "license": "MIT",
