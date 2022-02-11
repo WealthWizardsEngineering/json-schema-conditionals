@@ -1,0 +1,25 @@
+{
+  "name": "json-schema-conditionals",
+  "version": "0.0.1",
+  "description": "Package to create conditionals within JSON schema",
+  "repository": "https://github.com/WealthWizardsEngineering/json-schema-conditionals.git",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src"
+  },
+  "author": "WealthWizards",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "0.28.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.0",
+    "eslint-plugin-ramda": "^2.5.1",
+    "jest": "^27.5.1"
+  }
+}
