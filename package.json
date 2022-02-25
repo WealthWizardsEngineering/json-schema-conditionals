@@ -1,6 +1,6 @@
 {
   "name": "json-schema-conditionals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package to create conditionals within JSON schema",
   "repository": "https://github.com/WealthWizardsEngineering/json-schema-conditionals.git",
   "main": "src/index.js",
